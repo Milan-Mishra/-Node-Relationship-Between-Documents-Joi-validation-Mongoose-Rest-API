@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "60ee80bccf31ab2b6870a336"
+  },
+  "name": "raj gohil",
+  "class": 11,
+  "email": "student2@email.com",
+  "role_no": "05"
+},{
+  "_id": {
+    "$oid": "60ee80dbcf31ab2b6870a338"
+  },
+  "name": "mahesh bhatt",
+  "class": 17,
+  "email": "mahesh12@email.com",
+  "role_no": "05"
+},{
+  "_id": {
+    "$oid": "60ee80dbcf31ab2b6870a338"
+  },
+  "name": "mahesh bhatt",
+  "class": 17,
+  "email": "mahesh12@email.com",
+  "role_no": "05"
+},{
+  "_id": {
+    "$oid": "60ee80dbcf31ab2b6870a338"
+  },
+  "name": "mahesh bhatt",
+  "class": 17,
+  "email": "mahesh12@email.com",
+  "role_no": "05"
+},{
+  "_id": {
+    "$oid": "60ee80f5cf31ab2b6870a33a"
+  },
+  "name": "suresh kant",
+  "class": 27,
+  "email": "suresh123@email.com",
+  "role_no": "12"
+}]

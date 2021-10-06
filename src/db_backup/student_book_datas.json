@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "60ee8103cf31ab2b6870a33c"
+  },
+  "students": [
+    {
+      "$oid": "60ee80f5cf31ab2b6870a33a"
+    },
+    {
+      "$oid": "60ee80dbcf31ab2b6870a338"
+    }
+  ],
+  "name": "varun mehta",
+  "email": "varun@email.com"
+},{
+  "_id": {
+    "$oid": "60ee811dcf31ab2b6870a33e"
+  },
+  "students": [
+    {
+      "$oid": "60ee80bccf31ab2b6870a336"
+    }
+  ],
+  "name": "samji sharma",
+  "email": "samji123@email.com"
+},{
+  "_id": {
+    "$oid": "60ee8132cf31ab2b6870a340"
+  },
+  "students": [],
+  "name": "sushma mishra",
+  "email": "sushma8329@email.com"
+}]

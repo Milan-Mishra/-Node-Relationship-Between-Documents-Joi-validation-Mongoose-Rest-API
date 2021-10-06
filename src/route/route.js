@@ -3,6 +3,7 @@ module.exports = (app) => {
     const middleware = require('../Middleware/validator');
     const controller = require('../controller/controller.js');
     const controller_admin = require('../controller/controller_admin');
+    const controller_book = require('../controller/controller_book');
 
     //to insert teacher
     app.post('/insert_teacher', middleware.ValidateTeacher, controller.InsertTeacher);

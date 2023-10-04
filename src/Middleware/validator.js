@@ -34,18 +34,26 @@ exports.ValidateStudent = (req, res, cb) => {
   };
 
   const result = StudentSchema.validate(Student);
+
   result.error ? res.send(result.error.details[0].message) : cb();
 };
 
 exports.ValidateArray = (req, res, cb) => {
+    
+    const { body:
+        {
+            data
+        } } = req;
+
   ArraySchema = Joi.object({
     data: Joi.array().items(Joi.string()).required(),
   });
 
   const array_check = {
-    data: req.body.data,
+    data: data,
   };
 
   const result = ArraySchema.validate(array_check);
+
   result.error ? res.send(result.error.details[0].message) : cb();
 };
